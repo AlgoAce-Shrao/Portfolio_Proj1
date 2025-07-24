@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Designer</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet"> -->
+
+    <link rel="stylesheet" href="loco.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="circleCursor"></div>
+    <div id="main">
+      <!-- landing page -->
+      <div id="hero">
+        <div id="nav">
+          <a href="#">Shrao</a>
+          <h4>MENU+</h4>
+        </div>
+        <div id="heading">
+          <div class="bounding">
+            <h1 class="boundingelem">Software</h1>
+          </div>
+          <div class="blocktext">
+            <div class="bounding">
+              <h1 class="boundingelem" id="secondh1">Developer</h1>
+            </div>
+            <div class="bounding">
+              <h5 class="boundingelem">Based in Bhubaneshwar</h5>
+            </div>
+          </div>
+
+          <div id="chotiheadings">
+            <div class="bounding">
+              <h5 class="boundingelem">
+                Open for Internships & Collaborations From Jan ‘25
+              </h5>
+            </div>
+          </div>
+
+          <!-- footer -->
+          <div class="herofooter">
+            <a href="#"
+              >Built projects at <i class="ri-arrow-right-up-line"></i>
+              <h4>KIIT University</h4>
+            </a>
+
+            <a href="#"
+              >AI/ML BEGINNER <i class="ri-arrow-right-up-line"></i
+            ></a>
+
+            <div class="iconset">
+              <div class="circle"><i class="ri-arrow-down-line"></i></div>
+              <div class="circle"><i class="ri-arrow-down-line"></i></div>
+            </div>
+          </div>
+        </div>
+        <div id="head"></div>
+        <div id="ft"></div>
+      </div>
+
+      <!-- 2nd page -->
+      <div id="second">
+        <div class="elem">
+          <img src="portfolio.png" alt="" />
+          <h1>Portfolio Website</h1>
+          <span>2024</span>
+        </div>
+        <div class="elem">
+          <img src="atten.png" alt="" />
+          <h1>College Attendance App</h1>
+          <span>2024</span>
+        </div>
+        <div class="elem">
+          <img src="ai.png.webp" alt="" />
+          <h1>AI Chatbot</h1>
+          <span>2025</span>
+        </div>
+        <div class="elem">
+          <img src="notes.jpg" alt="" />
+          <h1>Smart Notes App</h1>
+          <span>2025</span>
+        </div>
+
+        <div id="lastelement">
+          <button id="work">View all work <sup>5</sup></button>
+        </div>
+      </div>
+
+      <!-- 3rd page  about -->
+      <div id="about">
+        <img src="shr_ghibli.jpg" alt="" />
+        <div id="textabout">
+          <h4>About me:</h4>
+          I'm a 2nd-year Computer Science student passionate about full-stack
+          development and solving real-world problems through code. Currently
+          exploring Java, DSA, and web technologies like HTML, CSS, and
+          JavaScript. I love learning by building and am always curious about
+          how things work behind the scenes.
+
+          <div class="connect">
+            <button id="letstalk">Let's talk</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="subscribe">
+        <h5>(forgot to mention)</h5>
+        <h3>
+          subscribe to my youtube channel <i class="ri-arrow-right-up-line"></i>
+        </h3>
+      </div>
+
+      <footer class="site-footer">
+        <div class="footer-left">
+          <span>© 2025</span>
+          <span id="clock">11:24 AM ET</span>
+        </div>
+        <div class="footer-right">
+          <a href="#">LINKEDIN</a>
+          <a href="#">X/TWITTER</a>
+          <a href="#">INSTAGRAM</a>
+          <a href="#">YOUTUBE</a>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"
+      integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- Animations 
+1.Smooth scrolling --locomotive js --use the locomotive js docs in github 
+      ::Steps::
+    ->locomotive.js github->paste the locomotive-scroll.css✅
+    ->attach loco.css✅
+    ->add the js code in the js file✅
+    ->attach the locomotive scroll cdn file->locomotive-scroll.min.js✅
+
+
+2. Gsap->for the circle like cursor 
+  ::Steps:;
+  ->attach gsap
+  ->
+3.scrolltriggger 
+-->
