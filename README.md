@@ -6,7 +6,7 @@ A personal developer portfolio built using **HTML**, **CSS**, and **JavaScript**
 
 ## 🚀 Live Demo
 
-🔗 [View Live Site](https://your-vercel-url.vercel.app)  
+🔗 [View Live Site](https://portfolio-proj1.vercel.app/)  
 *(Replace this link with your actual Vercel deployment URL)*
 
 ---
